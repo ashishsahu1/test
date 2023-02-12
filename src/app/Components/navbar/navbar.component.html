@@ -1,0 +1,58 @@
+<nav class="navbar nv is-spaced" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+            <img src="../../../assets/logoA.png">
+        </a>
+
+        <a role="button" class="navbar-burger is-spaced" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" [class.is-active]="showBurgerMenu"
+    (click)="showBurgerMenu = !showBurgerMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu" [class.is-active]="showBurgerMenu">
+        <div class="navbar-start">
+            <a class="navbar-item">
+                <span class="icon-text has-text-danger">
+                    <span class="icon">
+                        <i class="fa fa-id-card"></i>
+                    </span>
+                    <span>EXPERIENCE</span>
+                </span>
+            </a>
+
+            <a class="navbar-item">
+                <span class="icon-text has-text-success">
+                    <span class="icon">
+                        <i class="fa fa-window-restore"></i>
+                    </span>
+                    <span>PROJECTS</span>
+                </span>
+            </a>
+
+            
+        </div>
+
+        <div class="navbar-end">
+            <a href="" class="navbar-item">
+                <span class="icon has-text-danger">
+                    <i class="ion-ionic logo-github"></i>
+                </span>
+            </a>
+            <a href="" class="navbar-item">
+                <span class="icon has-text-info">
+                    <i class="fa fa-linkedin-square"></i>
+                </span>
+            </a>
+            <a href="" class="navbar-item">
+                <span class="icon has-text-success">
+                    <i class="fa fa-github"></i>
+                </span>
+            </a>
+        </div>
+
+        
+    </div>
+</nav>
