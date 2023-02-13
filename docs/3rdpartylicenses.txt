@@ -4,8 +4,14 @@ MIT
 @angular/core
 MIT
 
+@angular/forms
+MIT
+
 @angular/platform-browser
 MIT
+
+angular-typewriter-effect
+ISC
 
 rxjs
 Apache-2.0
