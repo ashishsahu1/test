@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-section.component.css']
 })
 export class AboutSectionComponent {
-
+  title = 'angularTests';
+  list = ['a Developer', 'a Programmer', 'a Designer', 'an Artist']
+  constructor() { }
+  ngOnInit() {
+  }
 }

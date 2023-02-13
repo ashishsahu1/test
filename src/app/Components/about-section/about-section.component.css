@@ -1,7 +1,28 @@
 .abt-section{
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
+    align-items: center;
+    flex-direction: column; 
+}
+
+.tlt{
+    text-align: center;
+    line-height: 40pt;
+}
+
+.tlt .tp{
+    color: #F14668;
+    font-weight: 600;
+    font-size: larger;
+}
+
+h1{
+    font-weight: 400;
+    
+}
+
+.tlt .nm{
+    font-weight: 700;
 }
 
 .dp{

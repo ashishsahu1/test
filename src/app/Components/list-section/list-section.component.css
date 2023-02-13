@@ -1,0 +1,19 @@
+.techlist-item{
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 1rem;
+    
+    
+}
+
+.techlist-section{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stack-itm{
+    margin: 1rem;
+}
