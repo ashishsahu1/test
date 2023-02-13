@@ -3,6 +3,10 @@ img{
     width: auto;
 }
 
+.dn{
+    background-color: #43C1FB;
+}
+
 /* .nv{
     display: flex;
     align-items: center;

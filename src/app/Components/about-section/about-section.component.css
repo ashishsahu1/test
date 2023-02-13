@@ -1,0 +1,10 @@
+.abt-section{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.dp{
+    width: 15rem;
+    height: auto;
+}
