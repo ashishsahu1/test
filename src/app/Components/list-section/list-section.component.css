@@ -1,19 +1,30 @@
 .techlist-item{
-    margin: 1rem;
-    border-radius: 10px;
-    background-color: aqua;
-    padding: 1rem;
-    
-    
+    margin: 0.5rem;
+    /* color: white; */
+    border-radius: 5px;
+    /* background-color: aqua; */
+    padding: 0.5rem;
+    font-weight: 500;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .techlist-section{
-    margin-top: 2rem;
+    margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+    
 }
 
 .stack-itm{
     margin: 1rem;
+}
+
+.more{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }

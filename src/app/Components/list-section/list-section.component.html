@@ -1,5 +1,14 @@
 <div class="techlist-section container">
-    <div class="techlist-item" *ngFor="let item of stack_list">
-        <app-list-section-item class="stack-itm" [itm]="stack_list[0]"></app-list-section-item>
+    <div class="techlist" *ngFor="let item of stack_list | slice:0:show; let i=index ">
+        <div [style.background-color]="item.color_code" class="techlist-item">
+            <app-list-section-item class="stack-itm" [itm]="item"></app-list-section-item>
+        </div>
     </div>
+</div>
+<div class="more" *ngIf="show < stack_list.length" (click)="increaseShow()">
+    <span class="icon">
+        <!-- class="devicon-adonisjs-original tech-logo" -->
+        <i class="fa fa-arrow-down"></i>
+    </span>
+    <span>show more</span>
 </div>
