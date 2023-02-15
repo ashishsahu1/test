@@ -9,6 +9,9 @@ import { AboutSectionComponent } from './Components/about-section/about-section.
 import { ListSectionComponent } from './Components/list-section/list-section.component';
 import { ListSectionItemComponent } from './Components/list-section-item/list-section-item.component';
 import { FormsModule } from '@angular/forms';
+import { FooterSectionComponent } from './Components/footer-section/footer-section.component';
+import { ProjectCardComponent } from './Components/project-card/project-card.component';
+import { ProjectSectionComponent } from './Components/project-section/project-section.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     AboutSectionComponent,
     ListSectionComponent,
-    ListSectionItemComponent
+    ListSectionItemComponent,
+    FooterSectionComponent,
+    ProjectCardComponent,
+    ProjectSectionComponent
   ],
   imports: [
     BrowserModule,
