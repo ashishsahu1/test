@@ -23,8 +23,56 @@
                 </span>
             </a>
 
-
-            <a class="navbar-item">
+            <div [ngClass]="modelClass" class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">Ashish Sahu</p>
+                    </header>
+                    <section class="modal-card-body">
+                        <!-- Content ... -->
+                        <div class="cnt">
+                            <div class="what">
+                                <span class="icon"><i class="fab fa-linkedin" aria-hidden="true"></i></span>
+                                <p>Linkedin</p>
+                            </div>
+                            <a href="https://www.linkedin.com/in/ashishsahu2/">linkedin.com/in/ashishsahu2</a>
+                        </div>
+                        <div class="cnt">
+                            <div class="what">
+                                <span class="icon"><i class="fab fa-instagram" aria-hidden="true"></i></span>
+                                <p>Instagram</p>
+                            </div>
+                            <a href="https://www.instagram.com/ashhishh99/">instagram.com/ashhishh99/</a>
+                        </div>
+                        <div class="cnt">
+                            <div class="what">
+                                <span class="icon"><i class="fa fa-envelope-open" aria-hidden="true"></i></span>
+                                <p>Gmail</p>
+                            </div>
+                            <a href="mailto:ashishsahu10428@gmail.com">ashishsahu10428@gmail.com</a>
+                        </div>
+                        <div class="cnt">
+                            <div class="what">
+                                <span class="icon"><i class="fa fa-address-book" aria-hidden="true"></i></span>
+                                <p>Phone</p>
+                            </div>
+                            <a href="">8210209272</a>
+                        </div>
+                        <div class="cnt">
+                            <div class="what">
+                                <span class="icon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                <p>Birth Day</p>
+                            </div>
+                            <a>02 April 1999</a>
+                        </div>
+                    </section>
+                    <footer class="modal-card-foot">
+                        <button (click)="contactClick()" class="button is-success">Close</button>
+                    </footer>
+                </div>
+            </div>
+            <a (click)="contactClick()" class="navbar-item">
                 <span class="icon-text has-text-info">
                     <span class="icon">
                         <i class="fa fa-phone-square"></i>
@@ -32,8 +80,7 @@
                     <span>CONTACTS</span>
                 </span>
             </a>
-
-            
+                     
         </div>
 
         <div class="navbar-end">

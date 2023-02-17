@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { FooterSectionComponent } from './Components/footer-section/footer-section.component';
 import { ProjectCardComponent } from './Components/project-card/project-card.component';
 import { ProjectSectionComponent } from './Components/project-section/project-section.component';
+import { ContactPopupComponent } from './Components/contact-popup/contact-popup.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProjectSectionComponent } from './Components/project-section/project-se
     ListSectionItemComponent,
     FooterSectionComponent,
     ProjectCardComponent,
-    ProjectSectionComponent
+    ProjectSectionComponent,
+    ContactPopupComponent
   ],
   imports: [
     BrowserModule,

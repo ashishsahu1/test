@@ -52,3 +52,13 @@ img{
         font-size: larger;
     }
 }
+
+.what{
+    display: flex;
+    gap: 1rem;
+}
+
+.cnt{
+    display: flex;
+    gap: 1rem;
+}
