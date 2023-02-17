@@ -1,0 +1,20 @@
+img{
+    object-fit: cover;
+}
+
+.dsc{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.g-btn{
+    /* background-color: #CBF2EC; */
+    color: black;
+}
+
+.l-btn{
+    /* background-color: #FFC7C7; */
+    color: black;
+}

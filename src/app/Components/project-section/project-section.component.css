@@ -1,7 +1,20 @@
-.project-card{
+.project-cards{
     width: 20rem;
 }
 
+.project-main{
+    margin-top: 5rem;
+}
+
 .project-section{
-    padding: 5rem;
+    padding: 0rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
 }

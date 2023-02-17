@@ -1,5 +1,12 @@
-<div class="project-section">
-    <div class="project-card">
-        <app-project-card></app-project-card>
+<div class="project-main">
+    <h1 class="title is-2">Personal Projects</h1>
+    <div class="filter">
+
+    </div>
+    <div class="project-section">
+        <div class="project-cards" *ngFor="let project of projects">
+            <app-project-card [project]="project"></app-project-card>
+        </div>
     </div>
 </div>
+
