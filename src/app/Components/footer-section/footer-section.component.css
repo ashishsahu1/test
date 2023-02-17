@@ -22,3 +22,16 @@
 .footer-icon{
     margin: 0 1rem 0 1rem;
 }
+
+.footer{
+    margin-top: 10rem;
+}
+
+@media only screen and (max-width: 980px){
+    .content{
+        padding: 1rem;
+    }
+    .txt-bx{
+        margin-bottom: 3rem;
+    }
+}

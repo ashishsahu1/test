@@ -7,6 +7,18 @@ img{
     background-color: #43C1FB;
 }
 
+.ll-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icccn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* .nv{
     display: flex;
     align-items: center;
@@ -16,4 +28,27 @@ img{
 .ft{
     font-size: x-large;
     margin-right: 1rem;
+}
+
+.navbar-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1027px) {
+
+    .navbar-item{
+        margin: 1rem 0;
+        font-size: larger;
+    }
+    .icccn{
+        margin: 1rem 0;
+        gap: 3rem;
+        font-size: larger;
+    }
+    .ll-btn{
+        margin: 1rem 0;
+        font-size: larger;
+    }
 }

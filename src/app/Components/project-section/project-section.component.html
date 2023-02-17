@@ -1,12 +1,42 @@
 <div class="project-main">
     <h1 class="title is-3">Personal Projects</h1>
+    <p class="subtitle is-7">Uncheck "All" and then check others </p>
     <div class="filter">
-
+        <form>
+            <!-- <div *ngFor="let option of checkBX">
+                <label for="first">{{option.id}}</label>
+                <input type="{{option.type}}" value="{{option.id}}" (change)="onChange($event)" id="{{option.id}}">
+                <br>
+            </div> -->
+            <div class="article">
+                <input type="checkbox" name="All" value="All" [(ngModel)]="allBtn" (change)="onChange($event)" id="All">
+                <div>All</div>
+            </div>
+            <div class="article" *ngFor="let option of checkBX">
+                <input type="{{option.type}}" value="{{option.id}}" (change)="onChange($event)" id="{{option.id}}">
+                <div>{{option.id}}</div>
+            </div>
+           
+        </form>
     </div>
-    <div class="project-section">
-        <div class="project-cards" *ngFor="let project of projects">
-            <app-project-card [project]="project"></app-project-card>
+    
+        <div *ngIf="allBtn; else elseBlock">
+            <div class="project-section">
+                <div class="project-cards" *ngFor="let project of projects">
+                    <app-project-card [project]="project"></app-project-card>
+                </div>
+            </div>
         </div>
+        <ng-template #elseBlock>
+            <div class="project-section">
+                <div class="project-cards" *ngFor="let project of finalData">
+                    <app-project-card [project]="project"></app-project-card>
+                </div>
+            </div>
+        </ng-template>
+        <!-- <div class="project-cards" *ngFor="let project of finalData">
+            <app-project-card [project]="project"></app-project-card>
+        </div> -->
     </div>
-</div>
+
 
