@@ -9,9 +9,9 @@ export class ProjectSectionComponent {
   projects:any = [
     {
       image:"https://user-images.githubusercontent.com/52550558/216713967-a02dafb1-93b0-4e20-8a62-2366946880f4.png",
-      title:"Employee Management System",
+      title:"EM System",
       summary:"Full Stack Management System",
-      desc:"AIRA is my personal AI based Resume Bot which can talk about me (Ashish) and provide important informations. AIRA is also enchanced with conversation intents to make the conversation feel more natural.",
+      desc:"The 👩🏻‍💻🖥️ Employee Management System is a web application that allows companies to easily manage and organize their employees' information. The system is built using ASP.NET 6 Web API and Angular, making it fast and efficient, while also providing a user-friendly interface.",
       github:"https://github.com/ProjectYard/Employee-Management-System",
       deployed:"",
       tags:["Full-Stack","Backend","Frontend","api","Angular"],
@@ -84,7 +84,7 @@ export class ProjectSectionComponent {
       image:"https://user-images.githubusercontent.com/52550558/219700667-7dcfb405-7ef1-482a-9867-61a439cef4ba.png",
       title:"Let's Talk",
       summary:"Android Chat App",
-      desc:":ets Talk is an android online chat application Using Flutter we can build this application easily One can easily use this application for conversation purpose",
+      desc:"Lets Talk is an android online chat application Using Flutter we can build this application easily One can easily use this application for conversation purpose",
       github:"https://github.com/ashishsahu1/Lets-Talk",
       deployed:"",
       tags:["Flutter","Android"],
