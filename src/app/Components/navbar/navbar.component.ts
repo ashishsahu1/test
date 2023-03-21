@@ -18,4 +18,17 @@ export class NavbarComponent {
     }
      
   }
+
+  
+  modelClass2:string = "model";
+  expClick(){
+    if(this.modelClass2 == "model"){
+      this.modelClass2 = this.modelClass2+" "+"is-active"
+    }else{
+      this.modelClass2 = "model"
+    }
+     
+  }
+
+
 }

@@ -1,6 +1,6 @@
 <nav class="navbar is-fixed-top nv is-spaced" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="">
             <img src="../../../assets/logoA.png">
         </a>
 
@@ -14,7 +14,22 @@
 
     <div id="navbarBasicExample" class="navbar-menu" [class.is-active]="showBurgerMenu">
         <div class="navbar-start">
-            <a class="navbar-item">
+            <div [ngClass]="modelClass2" class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">My Experiences</p>
+                    </header>
+                    <section class="modal-card-body">
+                        <!-- content -->
+                        <app-exp-section></app-exp-section>
+                    </section>
+                    <footer class="modal-card-foot">
+                        <button (click)="expClick()" class="button is-success">Close</button>
+                    </footer>
+                </div>
+            </div>
+            <a (click)="expClick()" class="navbar-item">
                 <span class="icon-text has-text-danger">
                     <span class="icon">
                         <i class="fa fa-id-card"></i>

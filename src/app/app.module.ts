@@ -13,6 +13,7 @@ import { FooterSectionComponent } from './Components/footer-section/footer-secti
 import { ProjectCardComponent } from './Components/project-card/project-card.component';
 import { ProjectSectionComponent } from './Components/project-section/project-section.component';
 import { ContactPopupComponent } from './Components/contact-popup/contact-popup.component';
+import { ExpSectionComponent } from './Components/exp-section/exp-section.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ContactPopupComponent } from './Components/contact-popup/contact-popup.
     FooterSectionComponent,
     ProjectCardComponent,
     ProjectSectionComponent,
-    ContactPopupComponent
+    ContactPopupComponent,
+    ExpSectionComponent
   ],
   imports: [
     BrowserModule,

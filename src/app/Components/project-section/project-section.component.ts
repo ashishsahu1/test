@@ -247,6 +247,11 @@ export class ProjectSectionComponent {
       });
     }
 
+
+  removeDuplicates(arr:any) {
+        return [...new Set(arr)];
+  }
+  
   onChange(event:any){
     if(event.target.checked)
     {
@@ -263,6 +268,7 @@ export class ProjectSectionComponent {
         }
       })
     }
+    this.finalData = this.removeDuplicates(this.finalData);
   }
 
   allBtn:boolean = false;
