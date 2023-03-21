@@ -1,14 +1,14 @@
-<div class="timeline">
-    <div class="container left">
-        <div class="content">
-            <h2>2017</h2>
-            <p>Lorem ipsum..</p>
+<div class="">
+    <div *ngFor="let item of exp">
+        <div class="timeline-item pl-4">
+            <div class="timeline-content">
+                <p class="heading">{{item.sdate}}  -  {{item.edate}}</p>
+                <p class="title is-4">{{item.firm}}</p>
+                <p class="subtitle is-5">{{item.title}}</p>
+                <p>{{item.desc}}</p>
+            </div>
         </div>
-    </div>
-    <div class="container right">
-        <div class="content">
-            <h2>2016</h2>
-            <p>Lorem ipsum..</p>
-        </div>
-    </div>
+        <hr>
+    </div>   
+    
 </div>
