@@ -19,6 +19,16 @@ export class ProjectSectionComponent {
     },
     {
       image:
+        'https://github.com/ashishsahu1/Popcorn/assets/52550558/49e94b80-ae56-494d-8cec-4a6ca1411119',
+      title: 'Popcorn',
+      summary: 'Movie Listing Application 🍿',
+      desc: 'Popcorn is a cutting-edge movie listing application developed using the latest Next.js framework, built on top of React. It leverages the powerful features of Next.js, a popular server-side rendering (SSR) framework, to provide a seamless user experience. With Next.js, Popcorn combines the best of both worlds by offering dynamic and responsive web pages with server-side rendering capabilities.',
+      github: 'https://github.com/ashishsahu1/Popcorn',
+      deployed: '',
+      tags: ['Frontend', 'React', 'UI/UX', 'Responsive-UI', 'All'],
+    },
+    {
+      image:
         'https://user-images.githubusercontent.com/52550558/143071480-bc89174f-a6e7-467b-9997-f30c913b7cb4.png',
       title: 'AIRA',
       summary: 'Personal resume bot 👾',
